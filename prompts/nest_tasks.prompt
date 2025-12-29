@@ -12,3 +12,4 @@ O projeto deve conter:
 9. Retorne o conteúdo de cada arquivo separadamente, indicando o caminho, por exemplo:
 
 Arquivo: src/tasks/tasks.controller.ts
+10. Mostrar erros
