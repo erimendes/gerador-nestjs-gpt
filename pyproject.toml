@@ -1,17 +1,9 @@
-[project]
+[tool.poetry]
 name = "gerador-nestjs-gpt"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "erimendes",email = "eri.mendes32@gmail.com"}
-]
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "openai (>=2.14.0,<3.0.0)"
-]
+description = "Gerador de código NestJS usando GPT"
+authors = ["Seu Nome <email@exemplo.com>"]
 
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.0.0"

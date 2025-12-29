@@ -2,15 +2,14 @@ import os
 from openai import OpenAI
 import re
 
-# Configura API Key
-
+# Configura a API Key via secret
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Lê o prompt do arquivo
 with open("prompts/nest_tasks.prompt", "r", encoding="utf-8") as f:
     prompt = f.read()
 
-# Chama a API
+# Chama a API GPT
 response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[{"role": "user", "content": prompt}]
