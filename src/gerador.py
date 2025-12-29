@@ -3,6 +3,7 @@ from openai import OpenAI
 import re
 
 # Configura API Key
+
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Lê o prompt do arquivo
