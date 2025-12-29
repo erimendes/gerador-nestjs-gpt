@@ -1,0 +1,14 @@
+Gere um projeto NestJS completo em TypeScript para gerenciar um recurso chamado "tasks". 
+O projeto deve conter:
+
+1. Controller (`tasks.controller.ts`) com rotas CRUD (GET, POST, PUT, DELETE)
+2. Service (`tasks.service.ts`) com métodos para cada operação CRUD
+3. Module (`tasks.module.ts`) que importa o controller e service
+4. DTOs para criar e atualizar tasks
+5. Atualização do `app.module.ts` para importar o `TasksModule`
+6. Cada arquivo deve ser salvo em sua pasta correta (`src/tasks/`)
+7. Inclua exemplos de código NestJS funcional, incluindo imports do `@nestjs/common`
+8. Estruture o projeto pronto para rodar com `npm run start`
+9. Retorne o conteúdo de cada arquivo separadamente, indicando o caminho, por exemplo:
+
+Arquivo: src/tasks/tasks.controller.ts
